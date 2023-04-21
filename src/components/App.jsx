@@ -9,9 +9,9 @@ import { PrivateRoute } from './PrivateRouter';
 import { RestrictedRoute } from './RestrictedRoute';
 
 const Main = lazy(() => import('./Main/Main'));
-const Registration = lazy(() => import('../pages/Registration'));
-const LogIn = lazy(() => import('../pages/LogIn'));
-const Contacts = lazy(() => import('../pages/Contacts'));
+const Registration = lazy(() => import('../pages/Registration/Registration'));
+const LogIn = lazy(() => import('../pages/LogIn/LogIn'));
+const Contacts = lazy(() => import('../pages/Contacts/Contacts'));
 
 const App = () => {
   const dispatch = useDispatch();
