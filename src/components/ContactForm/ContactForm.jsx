@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import {
   FormButton,
-  FormContact,
+  
   FormInput,
   FormLabel,
 } from './ContactForm.styled';
