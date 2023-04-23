@@ -10,7 +10,7 @@ import { RestrictedRoute } from './RestrictedRoute';
 
 const Main = lazy(() => import('./Main/Main'));
 const Registration = lazy(() => import('../pages/Registration/Registration'));
-const LogIn = lazy(() => import('../pages/LogIn/LogIn'));
+const LogIn = lazy(() => import('./LogIn/LogIn'));
 const Contacts = lazy(() => import('../pages/Contacts/Contacts'));
 
 const App = () => {

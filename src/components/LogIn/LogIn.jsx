@@ -7,7 +7,7 @@ import {
   RegistrationTitle,
   PasswordBox,
   VisibilityButton,
-} from '../Registration/Registration.styled';
+} from '../../pages/Registration/Registration.styled';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import { useState } from 'react';
