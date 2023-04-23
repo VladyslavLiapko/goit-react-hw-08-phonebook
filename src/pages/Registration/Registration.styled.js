@@ -42,7 +42,7 @@ export const RegistrationButton = styled('button')`
   padding: 15px 25px;
   font-size: 20px;
   border: none;
-  background-color: #f2e06c;
+  background-color: #1E90FF;
   border-radius: 25px;
   cursor: pointer;
   color: white;

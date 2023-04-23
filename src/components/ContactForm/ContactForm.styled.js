@@ -5,7 +5,7 @@ export const FormContact = styled('form')`
   flex-direction: column;
   align-items: center;
   height: 250px;
-  gap: 30px;
+  // gap: 30px;
   padding: 40px;
   border-radius: 15px;
   backdrop-filter: blur(50px);
@@ -35,7 +35,7 @@ export const FormButton = styled('button')`
   padding: 15px 25px;
   font-size: 20px;
   border: none;
-  background-color: #f2e06c;
+  background-color: #1E90FF;
   border-radius: 25px;
   cursor: pointer;
   color: white;

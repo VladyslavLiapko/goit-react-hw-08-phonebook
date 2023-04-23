@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import {
   FormButton,
-  
+  FormContact,
   FormInput,
   FormLabel,
 } from './ContactForm.styled';
@@ -33,7 +33,7 @@ const ContactForm = () => {
 
     return (
       <>
-      <formContact  onSubmit={handleSubmit} autoComplete="off">
+      <FormContact  onSubmit={handleSubmit} autoComplete="off">
           <FormLabel >Name</FormLabel >
           <br/>
           <FormInput
@@ -57,7 +57,7 @@ const ContactForm = () => {
         <FormButton type="submit">
           Add contact
         </FormButton>
-        </formContact>
+        </FormContact>
         </>
     );
 }
